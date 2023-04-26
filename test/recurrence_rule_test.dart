@@ -258,7 +258,7 @@ void main() {
         until: DateTime.utc(1997, 12, 24),
       );
       const string = 'RRULE:FREQ=DAILY;UNTIL=19971224T000000Z';
-      const text = 'Daily, until Wednesday, December 24, 1997 12:00:00 AM';
+      const text = 'Daily, until Wednesday, December 24, 1997 12:00:00 AM';
 
       testStringCodec(
         'StringCodec',
